@@ -9,11 +9,31 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "var(--color-background)",
+        foreground: "var(--color-text)",
+        border: "var(--color-border)",
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
+        accent: "var(--color-accent)",
+        light: "var(--color-light)",
+        dark: "var(--color-dark)",
+        warning: "var(--color-warning)",
+        success: "var(--color-success)",
+        destructive: "var(--color-danger)",
+      },
+      fontFamily: {
+        poppinsThin: ["poppins-thin"],
+        poppinsLight: ["poppins-light"],
+        poppinsRegular: ["poppins-regular"],
+        poppinsMedium: ["poppins-medium"],
+        poppinsSemibold: ["poppins-semibold"],
+        poppinsBold: ["poppins-bold"],
+        poppinsExtrabold: ["poppins-extrabold"],
+        poppinsBlack: ["poppins-black"],
       },
     },
   },
   plugins: [],
 };
+
 export default config;
